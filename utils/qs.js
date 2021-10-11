@@ -1,0 +1,1 @@
+import n from"../snowpack/pkg/query-string.js";export default{set(t,e){const o=this.get(),r=n.stringify({...o,[t]:e});window.history.replaceState(null,window.document.title,"?"+r)},get(t){const e=n.parse(window.location.search);return e&&t?e[t]:null}};

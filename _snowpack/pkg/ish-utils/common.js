@@ -1,0 +1,1 @@
+function r(n){return JSON.parse(JSON.stringify(n))}function i(n,u=DEFAULT_DEBOUNCE_DURATION){let e;function t(...o){t.clear(),e=setTimeout(()=>{e=null,n.apply(this,o)},u)}return t.clear=function(){e&&(clearTimeout(e),e=null)},t}export{i as debounce,r as jsonCopy};

@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "bokal-sourage": "./bokal-sourage.js",
+    "ish-utils/PVector": "./ish-utils/PVector.js",
+    "ish-utils/common": "./ish-utils/common.js",
+    "ish-utils/math": "./ish-utils/math.js",
+    "js-quadtree": "./js-quadtree.js",
+    "query-string": "./query-string.js",
+    "simplex-noise": "./simplex-noise.js",
+    "tweakpane": "./tweakpane.js"
+  }
+}
