@@ -1,0 +1,3 @@
+const{userAgent:n}=window.navigator;export const BROWSER=n.includes("Chrome")?"Chrome":n.includes("Safari")?"Safari":n.includes("Firefox")?"Firefox":n.includes("Trident")||n.includes("MSI")?"IE":null,OS=n.includes("Mac")?"Mac":n.includes("Win")?"Win":n.includes("iP")?"iOS":null;export function checkUserEnv(){if(BROWSER!=="Chrome"||OS==="iOS")throw navigator.language.indexOf("ru-")===0?alert(`Работает только в Chrome на Mac/Windows/Linux.
+Остальные браузеры пока не имеют необходимый функционал.`):alert(`Your browser isn't supported.
+Run it in Chrome (Mac/Windows/Linux).`),new Error("WRONG_BROWSER")}
